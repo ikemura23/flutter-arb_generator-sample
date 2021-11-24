@@ -1,16 +1,15 @@
 # flutter_arb_generator_sample
 
-A new Flutter project.
+Flutterでl10n対応したく、csv -> arbを変換できるpackageを実験
 
-## Getting Started
+対象package: arb_generator
+https://github.com/defuncart/arb_generator
 
-This project is a starting point for a Flutter application.
+実行コマンド
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub run arb_generator
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 作成したスプレッドシート
+![image](https://user-images.githubusercontent.com/8417910/143161600-bb36bb93-1c21-41f3-bbf2-cc8f9da82832.png)
