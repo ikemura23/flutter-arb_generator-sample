@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
               AppLocalizations.of(context)!.myKey,
             ),
             Text(
-              AppLocalizations.of(context)?.welcome ?? "null",
+              AppLocalizations.of(context)!.welcome("hoge"),
             ),
             Text(
               AppLocalizations.of(context)!.topScreenTitle,

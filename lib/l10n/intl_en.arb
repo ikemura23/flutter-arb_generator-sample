@@ -6,6 +6,9 @@
   },
   "welcome": "Welcome {firstName}!",
   "@welcome": {
+    "placeholders": {
+      "firstName": {}
+    },
     "description": "A welcome message"
   },
   "topScreenTitle": "Top Title",

@@ -6,6 +6,9 @@
   },
   "welcome": "ようこそ {firstName}!",
   "@welcome": {
+    "placeholders": {
+      "firstName": {}
+    },
     "description": "A welcome message"
   },
   "topScreenTitle": "トップタイトル",
