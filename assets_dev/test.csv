@@ -1,0 +1,4 @@
+keys,description,ja,en
+myKey,The conventional newborn programmer greeting,こんにちは,Hello world!
+welcome,A welcome message,ようこそ {firstName}!,Welcome {firstName}!
+topScreenTitle,トップ画面のタイトル,トップタイトル,Top Title
