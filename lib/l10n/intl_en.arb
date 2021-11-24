@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "myKey": "Hello world!",
+  "@myKey": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "welcome": "Welcome {firstName}!",
+  "@welcome": {
+    "description": "A welcome message"
+  },
+  "topScreenTitle": "Top Title",
+  "@topScreenTitle": {
+    "description": "トップ画面のタイトル"
+  }
+}
