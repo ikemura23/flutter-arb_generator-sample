@@ -45,6 +45,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  arb_generator:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -87,3 +88,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+# https://github.com/defuncart/arb_generator
+# flutter pub run arb_generator
+arb_generator:
+  input_filepath: "assets_dev/test.csv"
+  output_filepath: "lib/l10n"
+  filename_prepend: "intl_"
+  csv_settings:
+    delimiter: ","
+    description_index: 1
+    base_index: 2
